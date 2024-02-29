@@ -1,0 +1,77 @@
+
+.container_division{
+    width: 43.75rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.ul_projects{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.space_language{
+    display: flex;
+    justify-content: space-between;
+    color: var(--brand-violet-1);
+    gap: 1rem;
+}
+
+.division_langage{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.span_map{
+    background: var(--brand-violet-3);
+    padding: 0.15rem;
+}
+
+.division_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.paragraph_card{
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--brand-grey-2);
+}
+
+.title_project{
+    font-family: var(-font-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+    color: var(--brand-grey-1);
+    margin-bottom: 1rem;
+}
+
+.img_links{
+    width: 15px;
+    height: 15px;
+}
+
+.align_links{
+    display: flex;
+    gap: 2rem;
+}
+
+.align_buttons{
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--brand-grey-1);
+}
+
+h2{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,23 @@
+:root{
+    --brand-violet-1: #5C63ED;
+    --brand-violet-2: #7D82F1;
+    --brand-violet-3: #BEC1F8;
+    --brand-violet-4: #E7E8FC;
+    
+    --brand-grey-1: #212529;
+    --brand-grey-2: #495057;
+    --brand-grey-3: #CED3D7;
+    --brand-grey-4: #F1F3F5;
+    --brand-grey-5: #F8F9FA;
+
+    --font-primary: "Lexend", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+
+span{
+    color: var(--brand-violet-1)
+}
+
+a{
+    text-decoration: none;
+}

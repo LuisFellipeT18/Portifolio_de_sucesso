@@ -1,0 +1,1 @@
+export const user = "Luis Fellipe da Silva Ferraz Garcia";

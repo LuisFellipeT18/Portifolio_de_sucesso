@@ -1,0 +1,35 @@
+.container{
+    background: var(--brand-violet-1);
+    
+}
+
+.container_division{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 5rem;
+
+}
+
+.title_1{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    color: var(--brand-grey-5);
+}
+
+.paragraph{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--brand-grey-5);
+}
+
+.style.container_content{
+    display: flex;
+    gap: 10rem;
+}
