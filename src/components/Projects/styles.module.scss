@@ -1,6 +1,6 @@
 
 .container_division{
-    width: 43.75rem;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     
@@ -13,8 +13,9 @@
 }
 
 .space_language{
+    
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     color: var(--brand-violet-1);
     gap: 1rem;
 }
@@ -27,15 +28,32 @@
 .span_map{
     background: var(--brand-violet-3);
     padding: 0.15rem;
+    margin-right: 0.5rem;
 }
 
 .division_card{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
+}
+.paragraph_card_container {
+    display: flex;
+    flex-grow: 1; 
+}
+
+.paragraph_language{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--brand-grey-2);
+    margin-bottom: 0.5rem;
 }
 
 .paragraph_card{
+    display: flex;
+    flex-wrap: wrap;
     font-family: var(--font-secondary);
     font-weight: 500;
     font-size: 0.875rem;
@@ -43,7 +61,7 @@
 }
 
 .title_project{
-    font-family: var(-font-primary);
+    font-family: var(--font-primary);
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.875rem;

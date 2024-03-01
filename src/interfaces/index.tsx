@@ -14,6 +14,8 @@ export interface Project {
   name: string;
   languages: string[];
   description: string;
+  link_project: string;
+  github: string;
 }
 
 export interface ProjectCardProps {

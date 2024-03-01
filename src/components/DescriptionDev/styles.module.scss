@@ -16,7 +16,7 @@
 .title_1{
     font-family: var(--font-primary);
     font-weight: 700;
-    font-size: 2.75rem;
+    font-size: 2.40rem;
     line-height: 3.5rem;
     color: var(--brand-grey-5);
 }
@@ -32,4 +32,7 @@
 .style.container_content{
     display: flex;
     gap: 10rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
